@@ -91,7 +91,7 @@ void draw() {
 
 void mousePressed() {
   if (mouseX > 75 && mouseX < 430 && mouseY > 250 && mouseY < 630) {
-    pumpkins += 100000;
+    pumpkins++;
   }
   if (mouseX > displayWidth - 450 && mouseX < displayWidth && mouseY > 0 && mouseY < 100) {
     spiders();
